@@ -1,13 +1,11 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom';
 import AppShellMain from './components/DashboardAppShell/DashboardAppShell';
-import Dashboard from './pages/Dashboard.page';
-import { HomePage } from './pages/Home.page';
 import LoginPage from './pages/Login.page';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <HomePage />,
+    element: <Navigate to="/login" replace />,
   },
   {
     path: '/login',

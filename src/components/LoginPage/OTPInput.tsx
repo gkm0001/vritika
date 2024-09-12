@@ -32,7 +32,6 @@ const OTPInput = () => {
             e.preventDefault();
             navigate('/dashboard?type=main');
           }}
-          color="#10B981"
           h={50}
           fullWidth
           radius={30}
