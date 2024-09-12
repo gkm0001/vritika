@@ -1,0 +1,29 @@
+.main{
+    border-radius: 20px;
+    width: fit-content;
+
+    @media (min-width:1024px) {
+        
+        width:-webkit-fill-available;
+    }
+
+
+}
+
+.searchinput{
+    background-color:#F4F7FE;
+    border: none;
+}
+
+.root{
+    background-color:#F4F7FE;
+    border: none;
+}
+
+.root2{
+    border: none;
+    border-left: 0.4px solid #979797;
+    border-right: 0.4px solid #979797;
+    background-color:#F4F7FE;
+
+}

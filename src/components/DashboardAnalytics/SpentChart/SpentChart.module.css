@@ -1,0 +1,38 @@
+.main{
+    /* width: 700px;
+    max-width: 700px; */
+    /* width: fit-content; */
+    background-color: #fff;
+    padding:20px 40px;
+    border-radius:30px ;
+}
+
+.chartmain{
+    max-width: 442px;
+    width: 442px;
+    margin: 10px;
+}
+
+.chartStat{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.input{
+    background-color: #F4F7FE;
+    border: none;
+    color:#A3AED0;
+}
+
+.root{
+    width:200px;
+}
+
+.charticon{
+    background-color: #F4F7FE;
+    border-radius: 6px;
+    display: flex;
+    padding: 5px;
+}

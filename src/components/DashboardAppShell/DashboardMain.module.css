@@ -1,0 +1,92 @@
+
+/* APPSHELL */
+
+/* .appshell{
+    position:relative;
+    display: flex;
+}
+
+.nav{
+    position: relative;
+
+    @media (min-width: 900px) {
+        
+        top:0;
+        height: 100vh;
+    }
+}
+
+
+.header{
+    position: relative;
+    padding: 0 20px;
+    }
+    
+    .navbar{
+        height: 100vh !important;
+        } */
+        
+        .main{
+            background-color: #F4F7FE;
+            width: fit-content;
+
+            @media (min-width:1024px){
+                width: 100vw;
+            }
+                }
+
+        .headermain{
+            height: 60px;
+            
+            @media (min-width:600px) {
+        height: 120px;
+    }
+}
+
+.header__left{
+    width:auto ;
+    
+    @media (min-width:900) {
+        border-right: 1px solid #E8E8E8;
+        width:300px
+    }
+
+}
+
+.headright{
+    flex-grow: 1;
+}
+/* HEADER */
+.searchBox{
+    border: 1px solid #DCDCDC;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.searchinput{
+    background-color:#F4F7FE;
+    border: none;
+}
+
+.icon{
+    margin:0 10px;
+    color: #A3AED0;
+}
+
+.navName{
+    font-size: 24px;
+}
+
+/* NAVBAR */
+
+.navTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E8E8E8;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+}

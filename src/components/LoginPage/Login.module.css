@@ -1,0 +1,37 @@
+/* stylelint-disable-next-line block-no-empty */
+.main{
+    margin:10px;
+    height: 100vh;
+    min-height: 100vh;
+}
+
+.left{
+    width:374px;
+    max-width: 374px;
+    /* margin: auto; */
+
+}
+
+.right{
+    /* margin: auto; */
+}
+
+.forgot{
+    font-size: 12px;
+}
+
+.img{
+    width:400px;
+    height: auto;
+}
+
+.title{
+    font-size: 50.67px;
+}
+
+
+/* OTP SECtION */
+
+.verify_title{
+    font-size: 25px;
+}
