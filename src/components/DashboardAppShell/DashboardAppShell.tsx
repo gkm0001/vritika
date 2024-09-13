@@ -4,6 +4,7 @@ import { useDisclosure, useMediaQuery } from '@mantine/hooks';
 import Burger from '../../assets/icons/hamburger.png';
 import VritikaLogo from '../../assets/vritika_logo.png';
 import DashboardMain from '../DashboardMain/DashboardMain';
+import PriceManagement from '../PriceManagement/PriceManagement';
 import UserManagement from '../UserManagement/UserManagement';
 import DashboardHeader from './Dashboardheader';
 import DashboardNavbar from './DashboardNavbar';
@@ -55,6 +56,7 @@ const AppShellMain = () => {
       </AppShell.Navbar>
       <AppShell.Main className={classes.main}>
         {type === 'main' && <DashboardMain />}
+        {type === 'price' && <PriceManagement />}
         {type === 'user' && <UserManagement />}
       </AppShell.Main>
     </AppShell>
