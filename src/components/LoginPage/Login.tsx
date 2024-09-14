@@ -1,5 +1,3 @@
-'use client';
-
 import { useState } from 'react';
 import { Box, Flex, Image } from '@mantine/core';
 import AuthPageImg from '../../assets/auth_page_image.png';

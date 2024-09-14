@@ -1,5 +1,3 @@
-'use client';
-
 import { SyntheticEvent } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { Box, Button, Checkbox, Flex, PinInput, Text, Title } from '@mantine/core';

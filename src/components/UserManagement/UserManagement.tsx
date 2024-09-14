@@ -1,5 +1,3 @@
-'use client';
-
 import { useState } from 'react';
 import { Box, Button, Group } from '@mantine/core';
 import UserList from './UserList';

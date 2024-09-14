@@ -3,6 +3,7 @@ import { AppShell, em, Group, Image } from '@mantine/core';
 import { useDisclosure, useMediaQuery } from '@mantine/hooks';
 import Burger from '../../assets/icons/hamburger.png';
 import VritikaLogo from '../../assets/vritika_logo.png';
+import BrandManagement from '../BrandManagement/BrandManagement';
 import DashboardMain from '../DashboardMain/DashboardMain';
 import PriceManagement from '../PriceManagement/PriceManagement';
 import UserManagement from '../UserManagement/UserManagement';
@@ -57,6 +58,7 @@ const AppShellMain = () => {
       <AppShell.Main className={classes.main}>
         {type === 'main' && <DashboardMain />}
         {type === 'price' && <PriceManagement />}
+        {type === 'brand' && <BrandManagement />}
         {type === 'user' && <UserManagement />}
       </AppShell.Main>
     </AppShell>
